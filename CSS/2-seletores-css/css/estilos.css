@@ -1,0 +1,35 @@
+* {
+    padding:20px;
+}
+
+
+
+body {
+    background: rgb(148, 133, 137);
+}
+
+.azul {
+    color: blue;
+}
+
+.center {
+    text-align: center;
+}
+
+.rosa {
+    color:pink ;
+}
+
+.vermelho {
+    color:red
+}
+
+.amarelo {
+    color:yellow ;
+}
+
+#teste {
+    color:white ;
+    text-align:left ;
+    background-color: yellow;
+}

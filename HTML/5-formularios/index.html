@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplos de Formulários</title>
+</head>
+<body>
+ <h1>Formulários</h1>
+ <a href="index.html"> Inicio </a>
+ <br>
+
+
+ <!--cria campos de formulário-->
+ <form>
+    <label for="campo_nome">Nome: </label> <!--Coloca o nome do que vai ser inserido no formulário-->
+    <input id="campo_nome" type="text" placeholder="Digite algo aqui" required> <!-- cria um espaço para que o texto seja guardado no servidor-->  
+    <br>
+    
+    <label for="campo_sobrenome">Sobrenome: </label> <!--Coloca o nome do que vai ser inserido no formulário-->
+    <input id="campo_sobrenome" type="text" placeholder="Digite algo aqui" required> <!-- cria um espaço para que o texto seja guardado no servidor-->  
+    <br>
+
+    <label for="campo_senha">Senha: </label> <!--Coloca o nome do que vai ser inserido no formulário-->
+    <input id="campo_senha" type="password" placeholder="Digite sua senha" required> <!-- cria um espaço para que a senha codificada seja guardada no servidor-->  
+    <br>
+
+    <label for="campo_senha"> Email:</label>
+    <input id="campo_senha" type="email" placeholder="Digite o seu Email" required> <!-- required faz com que seja obrigatório preencher o campo-->
+    <br>
+
+    <input type="submit" value="Enviar"> <!-- envia o formulário para o servidor-->
+    <br>
+
+
+    <!-- Permite selecionar uma opção-->
+    <h2>Personagens</h2>
+    <input type="radio" id="heroi" name="humano" value="homem">
+    <label for="heroi"> homem </label> <!-- value é o nome do formulário do banco de dados que será adicionado-->
+<br>
+    <input type="radio" id="mulher" name="humano" value="mulher">
+    <label for="mulher"> mulher </label>
+
+    <br>
+    <input type="radio" id="alien" name="humano" value="alien">
+    <label for="alien"> Alien </label> <!-- o value tem que ser o mesmo que o nome dentro da tag label-->
+
+<!--cria uma checkbox-->
+
+<br> <!-- for e id fazem com que o texto fique clicável-->
+<h2>Quais são os seus personagens favoritos?</h2>
+<input id="superman" type="checkbox" name="personagem1" value="superman"> 
+<label for="superman"> Superman </label>
+<br>
+
+<input id="batman" type="checkbox" name="personagem2" value="Batman">
+<label for="batman"> Batman </label>
+
+<h2> Escolha um personagem:</h2>
+<select name="personagens"> <!-- cria um menu com várias opções-->
+    <option selected disabled value=""> Escolha um personagem</option>   <!-- select disabled desabilita a primeira opção-->
+    <option value="superman"> Superman</option> 
+    <option value="flash"> Flash</option> 
+    <option value="cyborg"> Cyborg</option> 
+    <option value="robim"> Robin</option> 
+
+</select>
+    <!-- Área para mandar mensagem-->
+    <h2>Digite a sua mensagem</h2>
+    <textarea name="mensagem" placeholder="Digite aqui a sua mensagem" rows="15" cols="55"> </textarea>
+    
+
+
+
+
+
+</form>
+
+<button>clique aqui</button> <!--coloca um botão na página-->
+
+    
+
+
+
+
+
+
+
+</body>
+</html>
