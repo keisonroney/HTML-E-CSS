@@ -55,3 +55,68 @@ p{
     height:300px;
     background: blueviolet;
 }
+
+a.botao1{
+    background:darkgreen;
+    color:white;
+    padding: 10px;
+    text-decoration: none;
+    border:4px solid greenyellow;
+    border-radius: 10px;
+}
+
+a.botao1:hover{
+    background:rgb(12, 14, 12)211, 186;
+    padding: 13px; 
+    border:4px solid rgb(179, 197, 152);
+    border-radius: 10px;
+}
+
+a.botao2{
+    text-decoration: none;
+    padding:10px;
+    border:5px double blue;
+    color: blue;
+}
+
+a.botao2:hover{
+    text-decoration: underline;
+    padding:8px;
+    background: blue;
+    color: white;
+}
+
+a.botao3{
+    color:black;
+    text-decoration: none;
+
+}
+
+a.botao3:hover{
+     border-bottom:5px solid red;
+
+}
+
+a.botao4{
+    text-decoration:none;
+    color:blue;
+    font-size:18px;
+}
+
+a.botao4:hover{
+    font-size:22px;
+    font-weight:bold;
+}
+
+a.botao5{
+    text-decoration: none;
+    color:blueviolet;
+}
+
+a.botao5:hover{
+    font-size: 30px;
+    font-weight: bold;
+    
+
+    
+}

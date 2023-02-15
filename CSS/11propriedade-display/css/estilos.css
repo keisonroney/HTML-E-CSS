@@ -1,0 +1,21 @@
+
+
+
+.azul{
+    background: blue;
+}
+
+.vermelho{
+    background: red;
+
+}
+
+.verde{
+    background: green;
+}
+
+div{
+    display:inline-block;
+    width: 33%;
+    height: 150px;
+}
