@@ -1,0 +1,39 @@
+.container{
+    border:1px solid black;
+}
+
+.container img {
+    float:right;
+}
+
+ul{
+    background: black;
+    padding:40px;
+
+
+}
+
+li{
+    display: inline-block;
+
+}
+
+li a{
+    color: white;
+    text-decoration: none;
+    padding:40px;
+}
+
+li a:hover{
+    background: #ccc;
+    color:black;
+}
+
+.login{
+    float:right;
+}
+
+.login a:hover{
+    background: red;
+
+}
