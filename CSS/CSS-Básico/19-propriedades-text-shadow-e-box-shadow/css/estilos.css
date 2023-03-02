@@ -1,0 +1,45 @@
+
+h1{
+    text-shadow: 3px 3px 5px black;
+}
+
+.branco{
+    color:white;
+    text-shadow: 2px 2px 4px black;
+}
+
+
+
+.div{
+    background: white;
+    height: 300px;
+    width: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19)
+    
+}
+
+.div2{
+    background: blue;
+    height: 250px;
+    width: 250px;
+    box-shadow: 10px 10px 15px black;
+    
+}
+
+#multipla{
+    color:black;
+    text-shadow: 0 0px 3px #ff0000, 2px 2px 5px yellow;
+}
+
+#textodafoto{
+    color:white;
+    text-align: center;
+    font-size: 13px;
+
+}
+
+p{
+    color:white;
+    font-size: 12px;
+
+}

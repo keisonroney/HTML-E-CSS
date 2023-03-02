@@ -1,0 +1,6 @@
+
+#gradiente{
+    width: 100%;
+    height: 300px;
+    background-image: linear-gradient(blue, #0287f3);
+}

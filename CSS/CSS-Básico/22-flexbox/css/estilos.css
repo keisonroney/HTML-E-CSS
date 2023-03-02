@@ -1,0 +1,35 @@
+.flex-pai{
+    background:blue;
+   
+    display: flex;
+   
+    /* flex-direction:column;*/
+    
+   /*flex-direction: row; */
+    
+    /*flex-direction: row-reverse; */
+    
+    /* flex-direction: column-reverse;  coloca os elementos em coluna e inverte a ordem*/
+
+   /* flex-wrap:nowrap; */
+    
+   /*flex-wrap: wrap; Organiza os elementos de acordo com o tamanho da tela*/
+
+   flex-flow:row wrap; /*organiza os elementos em linha e para baixo de acordo com o tamanho da tela */
+
+   justify-content: space-around;
+   height: 600px;
+   align-items: flex-start;
+   align-content: center;
+
+}
+
+
+
+.flex-pai div{
+    flex-grow:1;
+    background: white; /*muda a cor do fundo*/
+    border:1px solid black; /*coloca borda*/
+    margin: 5px;
+    padding:30px;
+}
